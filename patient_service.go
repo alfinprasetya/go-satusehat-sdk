@@ -15,54 +15,63 @@ type PatientService struct {
 	client *Client
 }
 
-type GetCompletePatientByNIK struct {
-	Name      string
-	Birthdate string
-	NIK       string
+type PatientSearchParams struct {
+	Name      *string
+	Birthdate *string
+	Gender    *models.Gender
+	NIK       *string
 }
 
-func (s *PatientService) GetCompleteByNIK(ctx context.Context, params GetCompletePatientByNIK) (patient *models.Patient, err error) {
+func (s *PatientService) Search(ctx context.Context, params PatientSearchParams) (patient *models.Patient, err error) {
 	reqUrl := fmt.Sprintf(
-		"%s/Patient?name=%s&birthdate=%s&identifier=https://fhir.kemkes.go.id/id/nik|%s",
+		"%s/Patient",
 		s.client.BaseURL,
-		url.QueryEscape(params.Name),
-		url.QueryEscape(params.Birthdate),
-		url.QueryEscape(params.NIK),
 	)
 
-	return s.get(ctx, reqUrl)
-}
+	switch {
+	case params.Name != nil &&
+		params.Birthdate != nil &&
+		params.NIK != nil:
 
-type GetCompletePatientByGender struct {
-	Name      string
-	Birthdate string
-	Gender    models.Gender
-}
+		reqUrl += fmt.Sprintf(
+			"?name=%s&birthdate=%s&identifier=https://fhir.kemkes.go.id/id/nik|%s",
+			url.QueryEscape(*params.Name),
+			url.QueryEscape(*params.Birthdate),
+			url.QueryEscape(*params.NIK),
+		)
 
-func (s *PatientService) GetCompleteByGender(ctx context.Context, params GetCompletePatientByGender) (patient *models.Patient, err error) {
-	reqUrl := fmt.Sprintf(
-		"%s/Patient?name=%s&birthdate=%s&gender=%s",
-		s.client.BaseURL,
-		url.QueryEscape(params.Name),
-		url.QueryEscape(params.Birthdate),
-		url.QueryEscape(string(params.Gender)),
-	)
+	case params.Name != nil &&
+		params.Birthdate != nil &&
+		params.Gender != nil:
 
-	return s.get(ctx, reqUrl)
-}
+		reqUrl += fmt.Sprintf(
+			"?name=%s&birthdate=%s&gender=%s",
+			url.QueryEscape(*params.Name),
+			url.QueryEscape(*params.Birthdate),
+			url.QueryEscape(string(*params.Gender)),
+		)
 
-func (s *PatientService) GetPartial(ctx context.Context, nik string) (patient *models.Patient, err error) {
-	reqUrl := fmt.Sprintf(
-		"%s/Patient?identifier=https://fhir.kemkes.go.id/id/nik|%s",
-		s.client.BaseURL,
-		url.QueryEscape(nik),
-	)
+	case params.Name != nil &&
+		params.NIK != nil:
 
-	return s.get(ctx, reqUrl)
-}
+		reqUrl += fmt.Sprintf(
+			"?name=%s&identifier=https://fhir.kemkes.go.id/id/nik|%s",
+			url.QueryEscape(*params.Name),
+			url.QueryEscape(*params.NIK),
+		)
 
-func (s *PatientService) get(ctx context.Context, url string) (patient *models.Patient, err error) {
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
+	case params.NIK != nil:
+
+		reqUrl += fmt.Sprintf(
+			"?identifier=https://fhir.kemkes.go.id/id/nik|%s",
+			url.QueryEscape(*params.NIK),
+		)
+
+	default:
+		return nil, fmt.Errorf("invalid search params")
+	}
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, reqUrl, nil)
 	if err != nil {
 		return nil, err
 	}

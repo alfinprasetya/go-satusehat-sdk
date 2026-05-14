@@ -60,19 +60,21 @@ func main() {
 	)
 
 	client := satusehat.NewClient(
-		"<fhir-url>",
 		"<organization-id>",
+		"<fhir-url>",
 		auth,
 	)
 
-	patient, err := client.Patients.GetCompleteByNIK(
-		context.Background(),
-		satusehat.GetCompletePatientByNIK{
-			Name:      "Dr. Alan Bagus Prasetya",
-			NIK:       "9104223107000004",
-			Birthdate: "1977-09-03",
-		},
-	)
+	name := "Dr. Alan Bagus Prasetya"
+	birthdate := "1977-09-03"
+	nik := "9104223107000004"
+	gender := models.GenderMale
+	patient, err := client.Patients.Search(context.Background(), satusehat.PatientSearchParams{
+		Name:      &name,
+		Birthdate: &birthdate,
+		Gender:    &gender,
+		NIK:       &nik,
+	})
 
 	if err != nil {
 		log.Fatal(err)
@@ -128,7 +130,7 @@ func main() {
 | Feature                           | Status |
 | --------------------------------- | ------ |
 | GET Partial Patient by NIK        | ✅     |
-| GET Complete Patient By NIK	      | ✅     |
+| GET Complete Patient By NIK       | ✅     |
 | GET Complete Patient By Gender    | ✅     |
 | GET Newborn Patient by Mother NIK | 🚧     |
 | POST Create Patient               | ⏳     |
