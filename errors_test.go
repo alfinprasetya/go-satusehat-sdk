@@ -381,4 +381,3 @@ func assertErrorType(t *testing.T, err error, want string) {
 		t.Fatalf("unknown wantType %q", want)
 	}
 }
-

@@ -11,15 +11,15 @@ import (
 )
 
 const (
-	patientSearchNIK        = "9104025209000006"
-	patientSearchMaskedNIK  = "################"
-	patientSearchIHS        = "P02280547535"
-	patientSearchName       = "Salsabilla Anjani Rizki"
-	patientSearchBirthdate  = "2001-04-16"
-	newbornMotherNIK        = "9104025209000006"
-	newbornLouisaBirthdate  = "2024-12-09"
-	newbornLouisaIHS        = "P20394967125"
-	newbornLouisaName       = "LOUISA MINGAME"
+	patientSearchNIK       = "9104025209000006"
+	patientSearchMaskedNIK = "################"
+	patientSearchIHS       = "P02280547535"
+	patientSearchName      = "Salsabilla Anjani Rizki"
+	patientSearchBirthdate = "2001-04-16"
+	newbornMotherNIK       = "9104025209000006"
+	newbornLouisaBirthdate = "2024-12-09"
+	newbornLouisaIHS       = "P20394967125"
+	newbornLouisaName      = "LOUISA MINGAME"
 )
 
 func loadBundle(t *testing.T, filename string) *fhir.Bundle {
