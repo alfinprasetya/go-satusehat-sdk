@@ -75,11 +75,11 @@ func main() {
 ### Search newborn by mother NIK
 
 ```go
-// mother NIK is required; birthdate is optional (pass "" to omit)
+birthdate := "2024-12-09"
 patients, err := client.Patients.SearchNewbornsByMotherNIK(
 	context.Background(),
 	"9104025209000006", // mother NIK (required)
-	"2024-12-09",       // newborn birthdate (optional)
+	&birthdate,         // newborn birthdate (optional; pass nil to omit)
 )
 if err != nil {
 	log.Fatal(err)

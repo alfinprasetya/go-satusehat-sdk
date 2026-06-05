@@ -69,10 +69,8 @@ const emptySearchBundle = `{
 func TestSearchNewbornsByMotherNIK_Success(t *testing.T) {
 	t.Parallel()
 
-	const (
-		motherNIK = "9104025209000006"
-		birthdate = "2024-12-09"
-	)
+	const motherNIK = "9104025209000006"
+	birthdate := "2024-12-09"
 
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		if r.Method != http.MethodGet {
@@ -104,7 +102,7 @@ func TestSearchNewbornsByMotherNIK_Success(t *testing.T) {
 	patients, err := client.Patients.SearchNewbornsByMotherNIK(
 		context.Background(),
 		motherNIK,
-		birthdate,
+		&birthdate,
 	)
 	if err != nil {
 		t.Fatalf("SearchNewbornsByMotherNIK: %v", err)
@@ -159,7 +157,7 @@ func TestSearchNewbornsByMotherNIK_Multiple(t *testing.T) {
 	patients, err := client.Patients.SearchNewbornsByMotherNIK(
 		context.Background(),
 		motherNIK,
-		"",
+		nil,
 	)
 	if err != nil {
 		t.Fatalf("SearchNewbornsByMotherNIK: %v", err)
@@ -211,7 +209,7 @@ func TestSearchNewbornsByMotherNIK_Empty(t *testing.T) {
 	patients, err := client.Patients.SearchNewbornsByMotherNIK(
 		context.Background(),
 		"9104025209000006",
-		"",
+		nil,
 	)
 	if err != nil {
 		t.Fatalf("SearchNewbornsByMotherNIK: %v", err)
@@ -226,10 +224,11 @@ func TestSearchNewbornsByMotherNIK_Validation(t *testing.T) {
 
 	client := NewClient("org-id", "http://example.com", nil)
 
+	birthdate := "2024-12-09"
 	_, err := client.Patients.SearchNewbornsByMotherNIK(
 		context.Background(),
 		"",
-		"2024-12-09",
+		&birthdate,
 	)
 	if err == nil {
 		t.Fatal("expected error, got nil")

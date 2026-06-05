@@ -110,7 +110,8 @@ func (s *PatientService) Search(ctx context.Context, params PatientSearchParams)
 
 func (s *PatientService) SearchNewbornsByMotherNIK(
 	ctx context.Context,
-	motherNIK, birthdate string,
+	motherNIK string,
+	birthdate *string,
 ) ([]*models.Patient, error) {
 	if motherNIK == "" {
 		return nil, fmt.Errorf("mother NIK is required")
@@ -121,8 +122,8 @@ func (s *PatientService) SearchNewbornsByMotherNIK(
 		s.client.BaseURL,
 		url.QueryEscape(motherNIK),
 	)
-	if birthdate != "" {
-		reqUrl += fmt.Sprintf("&birthdate=%s", url.QueryEscape(birthdate))
+	if birthdate != nil {
+		reqUrl += fmt.Sprintf("&birthdate=%s", url.QueryEscape(*birthdate))
 	}
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, reqUrl, nil)
