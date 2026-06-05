@@ -95,6 +95,7 @@ func main() {
 ├── docs
 │   └── postman
 │       ├── collections
+│       │   ├── 00. FHIR Resource - Contoh Penggunaan.postman_collection.json
 │       │   └── README.md
 │       └── README.md
 ├── go.mod
@@ -109,7 +110,7 @@ func main() {
 
 ## Postman Guidelines
 
-Use `docs/postman/collections/` to store SATUSEHAT FHIR Postman collection JSON files that guide SDK resource implementation. Keep real credentials, tokens, and production patient data out of committed Postman files.
+Use the SATUSEHAT FHIR Postman collection JSON in `docs/postman/collections/` as a guideline for SDK resource implementation. Keep real credentials, tokens, and production patient data out of committed Postman files.
 
 ---
 

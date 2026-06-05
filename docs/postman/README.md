@@ -7,16 +7,18 @@ Use this directory to store Postman assets copied or adapted from the official S
 ```text
 docs/postman
 ├── collections
+│   ├── 00. FHIR Resource - Contoh Penggunaan.postman_collection.json
 │   └── README.md
 └── README.md
 ```
 
-## Recommended workflow
+## Collection source
 
-1. Export or download the SATUSEHAT FHIR R4 Postman collection from the [SATUSEHAT public Postman workspace](https://www.postman.com/satusehat/satusehat-public/collection/u2k8uiz/00-fhir-resource-contoh-penggunaan).
-2. Save collection files in `collections/` using descriptive names, for example `satusehat-fhir-r4.postman_collection.json`.
-3. Keep real credentials out of the repository. Use Postman's current values or local secret storage for client IDs, client secrets, organization IDs, and tokens.
-4. When adding SDK support for a FHIR resource, reference the matching Postman request as the source guideline for endpoint paths, query parameters, request bodies, and expected responses.
+The official SATUSEHAT FHIR R4 Postman collection is saved at `collections/00. FHIR Resource - Contoh Penggunaan.postman_collection.json`.
+
+Official source: [00. FHIR Resource - Contoh Penggunaan](https://www.postman.com/satusehat/satusehat-public/collection/u2k8uiz/00-fhir-resource-contoh-penggunaan)
+
+Use the checked-in collection as the source guideline for SDK endpoint paths, query parameters, request bodies, and expected responses. To refresh it, export the latest collection from Postman and replace the JSON file in `collections/`.
 
 ## Notes
 
