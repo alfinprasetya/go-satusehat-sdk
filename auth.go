@@ -80,17 +80,17 @@ func (p *OAuth2Provider) refreshToken(ctx context.Context) (string, int, error) 
 	if err != nil {
 		return "", 0, err
 	}
-	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		return "", 0, fmt.Errorf("auth server returned status %d", resp.StatusCode)
+	body, err := readAuthResponse(resp)
+	if err != nil {
+		return "", 0, err
 	}
 
 	var res struct {
 		AccessToken string `json:"access_token"`
 		ExpiresIn   string `json:"expires_in"`
 	}
-	if err := json.NewDecoder(resp.Body).Decode(&res); err != nil {
+	if err := json.Unmarshal(body, &res); err != nil {
 		return "", 0, err
 	}
 

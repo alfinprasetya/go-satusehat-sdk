@@ -3,6 +3,7 @@ package satusehat
 import (
 	"context"
 	_ "embed"
+	"errors"
 	"net/http"
 	"net/http/httptest"
 	"strings"
@@ -413,8 +414,8 @@ func TestPatientSearch_NotFound(t *testing.T) {
 	if err == nil {
 		t.Fatal("expected error, got nil")
 	}
-	if !strings.Contains(err.Error(), "patient not found") {
-		t.Errorf("error: got %q, want containing %q", err.Error(), "patient not found")
+	if !errors.Is(err, ErrPatientNotFound) {
+		t.Errorf("error: got %v, want ErrPatientNotFound", err)
 	}
 }
 
@@ -431,8 +432,51 @@ func TestPatientSearch_HTTPError(t *testing.T) {
 	if err == nil {
 		t.Fatal("expected error, got nil")
 	}
-	if !strings.Contains(err.Error(), "fhir api error") {
-		t.Errorf("error: got %q, want containing %q", err.Error(), "fhir api error")
+	var plainErr *PlainHTTPError
+	if !errors.As(err, &plainErr) {
+		t.Fatalf("error type: got %T, want *PlainHTTPError", err)
+	}
+	if plainErr.StatusCode != http.StatusInternalServerError {
+		t.Errorf("StatusCode: got %d, want %d", plainErr.StatusCode, http.StatusInternalServerError)
+	}
+}
+
+func TestPatientSearch_ConsentSuppressed(t *testing.T) {
+	t.Parallel()
+
+	nik := patientSearchNIK
+	consentBody := `{
+    "resourceType": "OperationOutcome",
+    "issue": [
+        {
+            "severity": "information",
+            "code": "suppressed",
+            "details": {
+                "text": "The operation did not return any information due to consent or privacy rules."
+            }
+        }
+    ]
+}`
+
+	client := newPatientTestClient(t, func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/fhir+json")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte(consentBody))
+	})
+
+	_, err := client.Patients.Search(context.Background(), PatientSearchParams{NIK: &nik})
+	if err == nil {
+		t.Fatal("expected error, got nil")
+	}
+	if !errors.Is(err, ErrConsentSuppressed) {
+		t.Errorf("errors.Is: got %v, want ErrConsentSuppressed", err)
+	}
+	var fhirErr *FHIRError
+	if !errors.As(err, &fhirErr) {
+		t.Fatalf("error type: got %T, want *FHIRError", err)
+	}
+	if len(fhirErr.Outcome.Issue) != 1 {
+		t.Fatalf("len(Issue): got %d, want 1", len(fhirErr.Outcome.Issue))
 	}
 }
 

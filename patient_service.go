@@ -80,19 +80,19 @@ func (s *PatientService) Search(ctx context.Context, params PatientSearchParams)
 	if err != nil {
 		return nil, err
 	}
-	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("fhir api error: status %d", resp.StatusCode)
+	body, err := readAPIResponse(resp)
+	if err != nil {
+		return nil, err
 	}
 
 	bundle := &fhir.Bundle{}
-	if err := json.NewDecoder(resp.Body).Decode(bundle); err != nil {
+	if err := json.Unmarshal(body, bundle); err != nil {
 		return nil, fmt.Errorf("failed to decode bundle: %w", err)
 	}
 
 	if len(bundle.Entry) == 0 {
-		return nil, fmt.Errorf("patient not found")
+		return nil, ErrPatientNotFound
 	}
 
 	fhirPatient := &fhir.Patient{}
@@ -135,14 +135,14 @@ func (s *PatientService) SearchNewbornsByMotherNIK(
 	if err != nil {
 		return nil, err
 	}
-	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("fhir api error: status %d", resp.StatusCode)
+	body, err := readAPIResponse(resp)
+	if err != nil {
+		return nil, err
 	}
 
 	bundle := &fhir.Bundle{}
-	if err := json.NewDecoder(resp.Body).Decode(bundle); err != nil {
+	if err := json.Unmarshal(body, bundle); err != nil {
 		return nil, fmt.Errorf("failed to decode bundle: %w", err)
 	}
 
