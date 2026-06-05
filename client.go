@@ -19,6 +19,7 @@ func NewClient(orgID, baseURL string, auth TokenProvider) *Client {
 	c := &Client{
 		httpClient: &http.Client{Timeout: 30 * time.Second},
 		BaseURL:    baseURL,
+		OrgID:      orgID,
 		Auth:       auth,
 	}
 
