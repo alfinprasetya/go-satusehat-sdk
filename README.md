@@ -92,6 +92,12 @@ func main() {
 .
 ├── auth.go
 ├── client.go
+├── docs
+│   └── postman
+│       ├── collections
+│       │   ├── 00. FHIR Resource - Contoh Penggunaan.postman_collection.json
+│       │   └── README.md
+│       └── README.md
 ├── go.mod
 ├── go.sum
 ├── models
@@ -99,6 +105,12 @@ func main() {
 ├── patient_service.go
 └── README.md
 ```
+
+---
+
+## Postman Guidelines
+
+Use the SATUSEHAT FHIR Postman collection JSON in `docs/postman/collections/` as a guideline for SDK resource implementation. Keep real credentials, tokens, and production patient data out of committed Postman files.
 
 ---
 
@@ -129,9 +141,7 @@ func main() {
 
 | Feature                           | Status |
 | --------------------------------- | ------ |
-| GET Partial Patient by NIK        | ✅     |
-| GET Complete Patient By NIK       | ✅     |
-| GET Complete Patient By Gender    | ✅     |
+| GET Search Patient                | ✅     |
 | GET Newborn Patient by Mother NIK | 🚧     |
 | POST Create Patient               | ⏳     |
 | POST Create Newborn Patient       | ⏳     |
