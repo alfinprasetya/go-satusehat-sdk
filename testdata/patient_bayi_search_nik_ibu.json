@@ -1,0 +1,2576 @@
+{
+    "entry": [
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395871417",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-09",
+                "id": "P20395871417",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395871417"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T01:16:41.280766+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyNjIwMTI4MDc2NjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith saria",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395870878",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-05",
+                "id": "P20395870878",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395870878"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T01:14:32.745712+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyNjA3Mjc0NTcxMjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith saria",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395861264",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-01",
+                "id": "P20395861264",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395861264"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T00:41:14.136640+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyNDA3NDEzNjY0MDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith tarzan",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395861048",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-10",
+                "id": "P20395861048",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395861048"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T00:40:53.142419+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyNDA1MzE0MjQxOTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith tarzan",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395860670",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-12",
+                "id": "P20395860670",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395860670"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T00:38:15.655841+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyMzg5NTY1NTg0MTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith tarzan",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395858829",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-13",
+                "id": "P20395858829",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395858829"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T00:29:49.170790+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyMzM4OTE3MDc5MDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith santa maria",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395857600",
+            "resource": {
+                "active": true,
+                "birthDate": "2026-05-14",
+                "id": "P20395857600",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395857600"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-05-21T00:23:34.435673+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc3OTMyMzAxNDQzNTY3MzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "John Smith",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395530559",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-12-09",
+                "id": "P20395530559",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395530559"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2026-01-04T19:59:08.397217+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2NzU1Njc0ODM5NzIxNzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "MARK MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395509032",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-12-09",
+                "id": "P20395509032",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395509032"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-12-23T02:17:37.802645+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2NjQ1NjI1NzgwMjY0NTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395496363",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-11-10",
+                "id": "P20395496363",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395496363"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-12-12T06:11:14.598894+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2NTUxOTg3NDU5ODg5NDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395492543",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-12-04",
+                "id": "P20395492543",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395492543"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-12-04T07:44:26.067844+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2NDgzNDI2NjA2Nzg0NDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395491788",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-12-03",
+                "id": "P20395491788",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395491788"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-12-03T03:10:05.511927+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2NDczMTQwNTUxMTkyNzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395477040",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-11-09",
+                "id": "P20395477040",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395477040"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-17T04:06:29.408334+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2MzM1MjM4OTQwODMzNDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395476785",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-11-10",
+                "id": "P20395476785",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395476785"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-16T18:37:01.364237+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2MzMxODIyMTM2NDIzNzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395474610",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-09-20",
+                "id": "P20395474610",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395474610"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-11T02:58:52.141274+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2MjgyOTkzMjE0MTI3NDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395474450",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-10-09",
+                "id": "P20395474450",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395474450"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-10T12:55:24.865480+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2Mjc3OTMyNDg2NTQ4MDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395470890",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-11-01",
+                "id": "P20395470890",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395470890"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-11-04T07:05:56.176996+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc2MjIzOTk1NjE3Njk5NjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395421086",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-08-09",
+                "id": "P20395421086",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395421086"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-09-28T04:55:41.929739+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1OTAzNTM0MTkyOTczOTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395354413",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-08-08",
+                "id": "P20395354413",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395354413"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-09-09T09:38:43.576215+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1NzQxMDcyMzU3NjIxNTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "RE-SIT NIK IBU",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395344828",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-08-25",
+                "id": "P20395344828",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395344828"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-09-01T02:54:28.472832+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1NjY5NTI2ODQ3MjgzMjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Zidan Al Rasyid",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395318851",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-08-20",
+                "id": "P20395318851",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395318851"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-21T05:05:18.124090+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1NTc1MjcxODEyNDA5MDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395308368",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-08-08",
+                "id": "P20395308368",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395308368"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-08-08T02:22:24.383046+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1NDYxOTc0NDM4MzA0NjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395303749",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-28",
+                "id": "P20395303749",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395303749"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-28T07:21:27.369253+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MzY4NzI4NzM2OTI1MzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395303738",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-25",
+                "id": "P20395303738",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395303738"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-28T07:20:54.238179+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MzY4NzI1NDIzODE3OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395303681",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-06-04",
+                "id": "P20395303681",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395303681"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-28T03:51:57.314962+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MzY3NDcxNzMxNDk2MjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395303476",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-26",
+                "id": "P20395303476",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395303476"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-28T00:45:52.135671+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MzY2MzU1MjEzNTY3MTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395301323",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-18",
+                "id": "P20395301323",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395301323"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-21T07:26:50.816740+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MzA4MjgxMDgxNjc0MDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "GUNAWAN HIDAYAT",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295564",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-09",
+                "id": "P20395295564",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295564"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T05:10:07.053783+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNzgwNzA1Mzc4MzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "JOKO PRATAMA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295553",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-07",
+                "id": "P20395295553",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295553"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T05:05:30.556027+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNzUzMDU1NjAyNzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "CITRA SAPUTRA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295531",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-08",
+                "id": "P20395295531",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295531"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T05:04:13.357963+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNzQ1MzM1Nzk2MzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "AHMAD PERMANA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295519",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-07",
+                "id": "P20395295519",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295519"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T05:03:56.050608+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNzQzNjA1MDYwODAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "DEWI WIJAYA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295484",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-06",
+                "id": "P20395295484",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295484"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T05:02:06.531669+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNzMyNjUzMTY2OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "AHMAD SURYA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295462",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-07",
+                "id": "P20395295462",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295462"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T05:01:37.282903+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNzI5NzI4MjkwMzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "BUDI HIDAYAT",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295348",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-07",
+                "id": "P20395295348",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295348"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T04:41:14.248002+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNjA3NDI0ODAwMjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "AHMAD KUSUMA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295291",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-07",
+                "id": "P20395295291",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295291"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T04:27:56.520426+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzNTI3NjUyMDQyNjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "EKO SURYA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295235",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-09",
+                "id": "P20395295235",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295235"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:32:07.494256+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMTkyNzQ5NDI1NjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Test Patient NIK ibu 1",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295224",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-06",
+                "id": "P20395295224",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295224"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:31:56.255469+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMTkxNjI1NTQ2OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "FITRI PERMANA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295213",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-08",
+                "id": "P20395295213",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295213"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:30:22.106002+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMTgyMjEwNjAwMjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "GUNAWAN KUSUMA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295199",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-06",
+                "id": "P20395295199",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295199"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:21:57.288968+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMTMxNzI4ODk2ODAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "EKO WULANDARI",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295188",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-06",
+                "id": "P20395295188",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295188"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:19:22.855649+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMTE2Mjg1NTY0OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "HADI SAPUTRA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295166",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-07-08",
+                "id": "P20395295166",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295166"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:18:40.582168+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMTEyMDU4MjE2ODAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "HADI PRATAMA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395295155",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-06-09",
+                "id": "P20395295155",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395295155"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-09T03:12:53.543005+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MjAzMDc3MzU0MzAwNTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395292327",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-06-02",
+                "id": "P20395292327",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395292327"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-07-07T16:56:13.386215+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MTkwNzM3MzM4NjIxNTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Bayi Ny Salsabilla Anjani Rizki",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395286165",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-05-21",
+                "id": "P20395286165",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395286165"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-06-21T19:09:14.469620+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc1MDUzMjk1NDQ2OTYyMDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Nana",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395276707",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-06-01",
+                "id": "P20395276707",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395276707"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-06-05T01:37:15.357227+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0OTA4NzQzNTM1NzIyNzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395276230",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-05-09",
+                "id": "P20395276230",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395276230"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-06-04T08:50:11.860279+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0OTAyNzAxMTg2MDI3OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395258603",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-05-16",
+                "id": "P20395258603",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395258603"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-05-16T05:10:03.024368+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0NzM3MjIwMzAyNDM2ODAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395191670",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-05-04",
+                "id": "P20395191670",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395191670"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-05-05T09:30:15.425559+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0NjQzNzQxNTQyNTU1OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395191545",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-05-05",
+                "id": "P20395191545",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395191545"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-05-05T07:27:03.189401+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0NjQzMDAyMzE4OTQwMTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395190097",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-04-21",
+                "id": "P20395190097",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395190097"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-05-02T06:11:17.674709+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0NjE2NjI3NzY3NDcwOTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395174717",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-04-20",
+                "id": "P20395174717",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395174717"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-04-21T06:58:38.792342+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0NTIxODcxODc5MjM0MjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395164984",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-03-20",
+                "id": "P20395164984",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395164984"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-04-08T08:11:28.932672+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0NDA5OTg4ODkzMjY3MjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Bayinya Ny Salsabilla",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395162159",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-03-15",
+                "id": "P20395162159",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395162159"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-04-02T10:13:42.669083+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0MzU4ODgyMjY2OTA4MzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395149641",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-03-10",
+                "id": "P20395149641",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395149641"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-03-14T03:52:58.777245+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0MTkyNDM3ODc3NzI0NTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395141205",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-02-09",
+                "id": "P20395141205",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395141205"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-03-06T07:36:02.755911+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTc0MTI0NjU2Mjc1NTkxMTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395092769",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-02-11",
+                "id": "P20395092769",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395092769"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-02-11T03:10:19.162333+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczOTI0MzQxOTE2MjMzMzAwMA"
+                },
+                "multipleBirthInteger": 2,
+                "name": [
+                    {
+                        "text": "pasien baru test (satu sehat) 4",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395090956",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-01-06",
+                "id": "P20395090956",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395090956"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-02-08T20:19:25.992035+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczOTA0NTk2NTk5MjAzNTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395071633",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-01-15",
+                "id": "P20395071633",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395071633"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-01-20T01:38:09.714301+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNzMzNzA4OTcxNDMwMTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395060498",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-01-09",
+                "id": "P20395060498",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395060498"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-01-17T06:42:30.533700+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNzA5NjE1MDUzMzcwMDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395057860",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-29",
+                "id": "P20395057860",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395057860"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-01-15T23:17:37.131953+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNjk4MzA1NzEzMTk1MzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA TARAO",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395057122",
+            "resource": {
+                "active": true,
+                "birthDate": "2025-01-13",
+                "id": "P20395057122",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395057122"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-01-14T07:58:47.951826+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNjg0MTUyNzk1MTgyNjAwMA"
+                },
+                "multipleBirthInteger": 1,
+                "name": [
+                    {
+                        "text": "Fitri Putri Aryanta",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395049704",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-11-30",
+                "id": "P20395049704",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395049704"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-01-06T11:00:07.491097+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNjE2MTIwNzQ5MTA5NzAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "SINTIA AJA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395049599",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-30",
+                "id": "P20395049599",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395049599"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2025-01-06T09:40:03.134619+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNjE1NjQwMzEzNDYxOTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MADA",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395044550",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-01",
+                "id": "P20395044550",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395044550"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-12-27T09:58:52.818546+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNTI5MzUzMjgxODU0NjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Crazy wq",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395044505",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-15",
+                "id": "P20395044505",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395044505"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-12-27T07:54:53.601837+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNTI4NjA5MzYwMTgzNzAwMA"
+                },
+                "multipleBirthInteger": 1,
+                "name": [
+                    {
+                        "text": "Crazy People2",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395044492",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-15",
+                "id": "P20395044492",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395044492"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-12-27T07:53:47.744185+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNTI4NjAyNzc0NDE4NTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Crazy People",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395044481",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-25",
+                "id": "P20395044481",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395044481"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-12-27T07:52:29.188501+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNTI4NTk0OTE4ODUwMTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Sofa",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20395044470",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-25",
+                "id": "P20395044470",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20395044470"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-12-27T07:51:47.215949+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczNTI4NTkwNzIxNTk0OTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LUIS",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20394967125",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-12-09",
+                "id": "P20394967125",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20394967125"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-12-09T05:07:55.249926+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczMzcyMDg3NTI0OTkyNjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "LOUISA MINGAME",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P20394919223",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-11-13",
+                "id": "P20394919223",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P20394919223"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-11-14T07:15:02.532785+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTczMTU2ODUwMjUzMjc4NTAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Lucinta Luna",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P02029559166",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-07-02",
+                "id": "P02029559166",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P02029559166"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-08-30T07:12:35.446317+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTcyNTAwMTk1NTQ0NjMxNzAwMA"
+                },
+                "multipleBirthInteger": 1,
+                "name": [
+                    {
+                        "text": "Bayi Teresa Lee 2",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P02029558903",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-07-02",
+                "id": "P02029558903",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P02029558903"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-08-30T04:26:47.352024+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTcyNDk5MjAwNzM1MjAyNDAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Bayi Teresa Lee",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        },
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P02029554092",
+            "resource": {
+                "active": true,
+                "birthDate": "2024-07-02",
+                "id": "P02029554092",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik-ibu",
+                        "use": "official",
+                        "value": "9104025209000006"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P02029554092"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-08-29T08:25:37.942122+00:00",
+                    "profile": [
+                        "https://fhir.kemkes.go.id/r4/StructureDefinition/Patient"
+                    ],
+                    "versionId": "MTcyNDkxOTkzNzk0MjEyMjAwMA"
+                },
+                "multipleBirthInteger": 0,
+                "name": [
+                    {
+                        "text": "Abele Rose",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "search",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?identifier=https%3A%2F%2Ffhir.kemkes.go.id%2Fid%2Fnik-ibu%7C9104025209000006"
+        },
+        {
+            "relation": "first",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?identifier=https%3A%2F%2Ffhir.kemkes.go.id%2Fid%2Fnik-ibu%7C9104025209000006"
+        },
+        {
+            "relation": "self",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?identifier=https%3A%2F%2Ffhir.kemkes.go.id%2Fid%2Fnik-ibu%7C9104025209000006"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 73,
+    "type": "searchset"
+}

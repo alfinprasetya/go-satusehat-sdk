@@ -11,6 +11,7 @@ type Patient struct {
 	ID string
 
 	NIK       string
+	MotherNIK string
 	IHSNumber string
 
 	Active bool
@@ -106,6 +107,11 @@ func MapFHIRPatient(src *fhir.Patient, out *Patient) error {
 	for _, identifier := range src.Identifier {
 		if identifier.System != nil && *identifier.System == "https://fhir.kemkes.go.id/id/nik" {
 			out.NIK = *identifier.Value
+			continue
+		}
+
+		if identifier.System != nil && *identifier.System == "https://fhir.kemkes.go.id/id/nik-ibu" {
+			out.MotherNIK = *identifier.Value
 			continue
 		}
 

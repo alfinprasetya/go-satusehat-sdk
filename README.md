@@ -72,6 +72,24 @@ func main() {
 }
 ```
 
+### Search newborn by mother NIK
+
+```go
+// mother NIK is required; birthdate is optional (pass "" to omit)
+patients, err := client.Patients.SearchNewbornsByMotherNIK(
+	context.Background(),
+	"9104025209000006", // mother NIK (required)
+	"2024-12-09",       // newborn birthdate (optional)
+)
+if err != nil {
+	log.Fatal(err)
+}
+
+for _, patient := range patients {
+	log.Printf("mother NIK: %s, IHS: %s, name: %s", patient.MotherNIK, patient.IHSNumber, patient.FullName)
+}
+```
+
 ---
 
 ## Project Structure
@@ -91,6 +109,7 @@ func main() {
 ├── models
 │   └── patients.go
 ├── patient_service.go
+├── patient_service_test.go
 └── README.md
 ```
 
@@ -130,7 +149,7 @@ Use the SATUSEHAT FHIR Postman collection JSON in `docs/postman/collections/` as
 | Feature                           | Status |
 | --------------------------------- | ------ |
 | GET Search Patient                | ✅     |
-| GET Newborn Patient by Mother NIK | 🚧     |
+| GET Newborn Patient by Mother NIK | ✅     |
 | POST Create Patient               | ⏳     |
 | POST Create Newborn Patient       | ⏳     |
 | PATCH Patient                     | ⏳     |

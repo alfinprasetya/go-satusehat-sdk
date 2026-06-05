@@ -107,3 +107,62 @@ func (s *PatientService) Search(ctx context.Context, params PatientSearchParams)
 
 	return patient, nil
 }
+
+func (s *PatientService) SearchNewbornsByMotherNIK(
+	ctx context.Context,
+	motherNIK, birthdate string,
+) ([]*models.Patient, error) {
+	if motherNIK == "" {
+		return nil, fmt.Errorf("mother NIK is required")
+	}
+
+	reqUrl := fmt.Sprintf(
+		"%s/Patient?identifier=https://fhir.kemkes.go.id/id/nik-ibu|%s",
+		s.client.BaseURL,
+		url.QueryEscape(motherNIK),
+	)
+	if birthdate != "" {
+		reqUrl += fmt.Sprintf("&birthdate=%s", url.QueryEscape(birthdate))
+	}
+
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, reqUrl, nil)
+	if err != nil {
+		return nil, err
+	}
+
+	resp, err := s.client.do(req)
+	if err != nil {
+		return nil, err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return nil, fmt.Errorf("fhir api error: status %d", resp.StatusCode)
+	}
+
+	bundle := &fhir.Bundle{}
+	if err := json.NewDecoder(resp.Body).Decode(bundle); err != nil {
+		return nil, fmt.Errorf("failed to decode bundle: %w", err)
+	}
+
+	if len(bundle.Entry) == 0 {
+		return []*models.Patient{}, nil
+	}
+
+	patients := make([]*models.Patient, 0, len(bundle.Entry))
+	for _, entry := range bundle.Entry {
+		fhirPatient := &fhir.Patient{}
+		if err := json.Unmarshal(entry.Resource, fhirPatient); err != nil {
+			return nil, fmt.Errorf("failed to decode patient resource: %w", err)
+		}
+
+		patient := &models.Patient{}
+		if err := models.MapFHIRPatient(fhirPatient, patient); err != nil {
+			return nil, err
+		}
+
+		patients = append(patients, patient)
+	}
+
+	return patients, nil
+}
