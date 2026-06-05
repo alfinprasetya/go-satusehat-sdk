@@ -8,8 +8,6 @@ Use this directory to store Postman assets copied or adapted from the official S
 docs/postman
 ├── collections
 │   └── README.md
-├── environments
-│   └── README.md
 └── README.md
 ```
 
@@ -17,9 +15,8 @@ docs/postman
 
 1. Export or download the SATUSEHAT FHIR R4 Postman collection from the official documentation.
 2. Save collection files in `collections/` using descriptive names, for example `satusehat-fhir-r4.postman_collection.json`.
-3. Save non-secret environment templates in `environments/`, for example `satusehat-staging.postman_environment.json`.
-4. Keep real credentials out of the repository. Use Postman's current values or local secret storage for client IDs, client secrets, organization IDs, and tokens.
-5. When adding SDK support for a FHIR resource, reference the matching Postman request as the source guideline for endpoint paths, query parameters, request bodies, and expected responses.
+3. Keep real credentials out of the repository. Use Postman's current values or local secret storage for client IDs, client secrets, organization IDs, and tokens.
+4. When adding SDK support for a FHIR resource, reference the matching Postman request as the source guideline for endpoint paths, query parameters, request bodies, and expected responses.
 
 ## Notes
 
