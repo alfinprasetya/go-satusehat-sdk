@@ -1,0 +1,7 @@
+{
+  "gopls": {
+    "buildFlags": ["-tags=integration"]
+  },
+  "go.testTags": "integration",
+  "go.coverMode": "atomic"
+}

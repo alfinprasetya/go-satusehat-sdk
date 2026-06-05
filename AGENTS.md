@@ -9,12 +9,15 @@
 | Task | Command |
 |------|---------|
 | Download dependencies | `go mod download` |
-| Build | `go build ./...` |
-| Vet (lint) | `go vet ./...` |
-| Test | `go test ./...` |
-| Format | `gofmt -w .` |
+| Build | `make build` or `go build ./...` |
+| Vet (lint) | `make vet` or `go vet ./...` |
+| Unit test | `make test` or `go test ./...` |
+| Unit test + coverage HTML | `make test-cover` → `coverage/unit.html` |
+| Integration test | `make test-integration` (loads `.env` if present; smoke-tests `Patients.Search` + `SearchNewbornsByMotherNIK`) |
+| Integration test + coverage HTML | `make test-integration-cover` → `coverage/integration.html` |
+| Format | `make fmt` or `gofmt -w .` |
 
-Go **1.26+** is required (`go.mod`). There are no `_test.go` files yet; `go test ./...` succeeds with `[no test files]`.
+Go **1.26+** is required (`go.mod`). See `make help` for all Makefile targets.
 
 ## Cursor Cloud specific instructions
 

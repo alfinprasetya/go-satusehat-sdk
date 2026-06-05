@@ -38,6 +38,7 @@ import (
 	"log"
 
 	satusehat "github.com/alfinprasetya/go-satusehat-sdk"
+	"github.com/alfinprasetya/go-satusehat-sdk/models"
 )
 
 func main() {
@@ -53,23 +54,47 @@ func main() {
 		auth,
 	)
 
-	name := "Dr. Alan Bagus Prasetya"
-	birthdate := "1977-09-03"
-	nik := "9104223107000004"
-	gender := models.GenderMale
+	// Use one search variant per call (do not combine Gender and NIK).
+	name := "Salsabilla Anjani Rizki"
+	birthdate := "2001-04-16"
+	gender := models.GenderFemale
+
 	patient, err := client.Patients.Search(context.Background(), satusehat.PatientSearchParams{
 		Name:      &name,
 		Birthdate: &birthdate,
 		Gender:    &gender,
-		NIK:       &nik,
 	})
-
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	log.Printf("%+v", patient)
 }
+```
+
+`PatientSearchParams` supports four SATUSEHAT search shapes (one per call):
+
+| Fields set | Postman equivalent |
+|------------|-------------------|
+| `Name`, `Birthdate`, `NIK` | Patient - Search Name, Birthdate, NIK |
+| `Name`, `Birthdate`, `Gender` | Patient - Search Name, Birthdate, Gender |
+| `Name`, `NIK` | Patient - Search Name, NIK |
+| `NIK` only | Patient - Search NIK |
+
+```go
+// Name + Birthdate + NIK (returns full profile with real NIK)
+nik := "9104025209000006"
+patient, err := client.Patients.Search(ctx, satusehat.PatientSearchParams{
+	Name: &name, Birthdate: &birthdate, NIK: &nik,
+})
+
+// Name + NIK (minimal profile, masked NIK)
+patient, err = client.Patients.Search(ctx, satusehat.PatientSearchParams{
+	Name: &name, NIK: &nik,
+})
+
+// NIK only
+patient, err = client.Patients.Search(ctx, satusehat.PatientSearchParams{NIK: &nik})
 ```
 
 ### Search newborn by mother NIK
@@ -89,6 +114,44 @@ for _, patient := range patients {
 	log.Printf("mother NIK: %s, IHS: %s, name: %s", patient.MotherNIK, patient.IHSNumber, patient.FullName)
 }
 ```
+
+---
+
+## Testing
+
+Unit tests use `httptest` and Postman example bundles under `testdata/`:
+
+```bash
+make test        # go test ./...
+make test-cover  # unit tests + coverage/unit.html (open in browser)
+make vet         # go vet ./...
+make check       # vet + unit tests
+```
+
+Live staging smoke tests (requires Kemkes credentials as environment variables). Integration tests cover `Patients.Search` (four Postman variants) and `SearchNewbornsByMotherNIK` (mother NIK with and without birthdate):
+
+```bash
+# Option A: .env in repo root (gitignored) with AUTH_URL, CLIENT_ID, CLIENT_SECRET, ORG_ID, FHIR_URL
+make test-integration
+
+# Option B: export variables yourself
+export AUTH_URL="https://api-satusehat-stg.dto.kemkes.go.id/oauth2/v1"
+export CLIENT_ID="..."
+export CLIENT_SECRET="..."
+export ORG_ID="..."
+export FHIR_URL="https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1"
+make test-integration
+
+make test-integration-cover  # integration tests + coverage/integration.html
+
+make test-all  # unit + integration
+```
+
+Coverage reports are written under `coverage/` (`unit.html`, `integration.html`, and per-function summaries in `*.txt`). Open the HTML files in a browser for line-by-line highlighting.
+
+Run `make help` for all targets.
+
+If gopls reports “No packages found” on `patient_service_integration_test.go`, reload the window after opening the repo (workspace `.vscode/settings.json` sets `gopls.buildFlags` to `-tags=integration`).
 
 ---
 

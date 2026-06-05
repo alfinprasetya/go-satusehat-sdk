@@ -1,0 +1,59 @@
+{
+    "entry": [
+        {
+            "fullUrl": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/P02280547535",
+            "resource": {
+                "active": true,
+                "id": "P02280547535",
+                "identifier": [
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/ihs-number",
+                        "use": "official",
+                        "value": "P02280547535"
+                    },
+                    {
+                        "system": "https://fhir.kemkes.go.id/id/nik",
+                        "use": "official",
+                        "value": "################"
+                    }
+                ],
+                "link": [
+                    {
+                        "other": {
+                            "reference": "RelatedPerson/f2aea232-a5ad-4754-9bb5-10083ce346d3"
+                        },
+                        "type": "refer"
+                    }
+                ],
+                "meta": {
+                    "lastUpdated": "2024-11-14T07:15:02.824423+00:00",
+                    "versionId": "MTczMTU2ODUwMjgyNDQyMzAwMA"
+                },
+                "name": [
+                    {
+                        "text": "Sa** An** Ri**",
+                        "use": "official"
+                    }
+                ],
+                "resourceType": "Patient"
+            }
+        }
+    ],
+    "link": [
+        {
+            "relation": "search",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?identifier=https%3A%2F%2Ffhir.kemkes.go.id%2Fid%2Fnik%7C9104025209000006&name=Salsabilla+Anjani+Rizki"
+        },
+        {
+            "relation": "first",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?identifier=https%3A%2F%2Ffhir.kemkes.go.id%2Fid%2Fnik%7C9104025209000006&name=Salsabilla+Anjani+Rizki"
+        },
+        {
+            "relation": "self",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?identifier=https%3A%2F%2Ffhir.kemkes.go.id%2Fid%2Fnik%7C9104025209000006&name=Salsabilla+Anjani+Rizki"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 1,
+    "type": "searchset"
+}

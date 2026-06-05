@@ -1,0 +1,20 @@
+{
+    "link": [
+        {
+            "relation": "search",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?birthdate=2001-04-16&gender=female&name=Ghina+Assyifani"
+        },
+        {
+            "relation": "first",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?birthdate=2001-04-16&gender=female&name=Ghina+Assyifani"
+        },
+        {
+            "relation": "self",
+            "url": "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1/Patient/?birthdate=2001-04-16&gender=female&name=Ghina+Assyifani"
+        }
+    ],
+    "resourceType": "Bundle",
+    "total": 0,
+    "type": "searchset",
+    "entry": []
+}

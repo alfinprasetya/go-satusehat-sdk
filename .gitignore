@@ -13,6 +13,7 @@
 
 # Code coverage profiles and other test artifacts
 *.out
+coverage/
 coverage.*
 *.coverprofile
 profile.cov
@@ -33,3 +34,6 @@ go.work.sum
 
 # debug folder
 debug/
+
+# cursor
+.cursor/
