@@ -92,6 +92,13 @@ func main() {
 .
 ├── auth.go
 ├── client.go
+├── docs
+│   └── postman
+│       ├── collections
+│       │   └── README.md
+│       ├── environments
+│       │   └── README.md
+│       └── README.md
 ├── go.mod
 ├── go.sum
 ├── models
@@ -99,6 +106,12 @@ func main() {
 ├── patient_service.go
 └── README.md
 ```
+
+---
+
+## Postman Guidelines
+
+Use `docs/postman/` to store SATUSEHAT FHIR Postman collections and safe environment templates that guide SDK resource implementation. Keep real credentials, tokens, and production patient data out of committed Postman files.
 
 ---
 
