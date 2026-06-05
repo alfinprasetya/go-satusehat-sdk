@@ -141,9 +141,7 @@ Use the SATUSEHAT FHIR Postman collection JSON in `docs/postman/collections/` as
 
 | Feature                           | Status |
 | --------------------------------- | ------ |
-| GET Partial Patient by NIK        | ✅     |
-| GET Complete Patient By NIK       | ✅     |
-| GET Complete Patient By Gender    | ✅     |
+| GET Search Patient                | ✅     |
 | GET Newborn Patient by Mother NIK | 🚧     |
 | POST Create Patient               | ⏳     |
 | POST Create Newborn Patient       | ⏳     |
