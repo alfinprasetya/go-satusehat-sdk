@@ -28,18 +28,6 @@ go get github.com/alfinprasetya/go-satusehat-sdk
 
 ---
 
-## Requirements
-
-- Go 1.26+
-
----
-
-## Dependencies
-
-- `github.com/samply/golang-fhir-models/fhir-models`
-
----
-
 ## Quick Start
 
 ```go
